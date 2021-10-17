@@ -1,0 +1,145 @@
+@media only screen and (min-width: 1064px) {
+
+
+img{
+    width: 580px;
+    height: 450px;
+    /* object-fit: cover; */
+    /* padding: 5px; */
+    
+    /* padding-top: 50px; */
+    border: 3px solid black;
+}
+#ptbtn{
+    width: 270px;
+    -webkit-border-radius: 31;
+    -moz-border-radius: 31;
+    border-radius: 31px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #fcf9fc;
+    font-size: 20px;
+    background: #9502a8;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+form{
+    padding: 8px;
+}
+body{
+    background-color: lightblue;
+    /* background-image: url("https://bobparkerfineart.com/wp-content/uploads/2018/01/ART-GALLERY_Tan-Wall-Background_1800x1600_BLANK.jpg"); */
+    
+}
+.ftimer{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.tmingwrapper{
+    float:right;
+    position: absolute;
+    right: 80px;
+}
+.text{
+    font-size: 11px;
+}
+.text2, .timer2{
+    font-size: 25px;
+}
+.value{
+    font-size: 20px;
+}
+.value2{
+    font-size: 34px;
+}
+.timertxt{
+    font-size: 14px;
+}
+#no{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#ptimer{
+    float: right;
+}
+}
+
+@media only screen and (max-width: 1063px){
+    .image{
+        max-width: 580px;
+        max-height: 450px;
+        /* width: 500px; */
+        /* max-height: 400px; */
+        /* object-fit: cover; */
+        /* padding: 5px; */
+        
+        /* padding-top: 50px; */
+        border: 1px solid black;
+    }
+    #ptbtn{
+        width: 270px;
+        -webkit-border-radius: 31;
+        -moz-border-radius: 31;
+        border-radius: 31px;
+        -webkit-box-shadow: 0px 1px 3px #666666;
+        -moz-box-shadow: 0px 1px 3px #666666;
+        box-shadow: 0px 1px 3px #666666;
+        font-family: Arial;
+        color: #fcf9fc;
+        font-size: 20px;
+        background: #9502a8;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+    form{
+        padding: 8px;
+    }
+    body{
+        background-color: lightblue;
+        /* background-image: url("https://bobparkerfineart.com/wp-content/uploads/2018/01/ART-GALLERY_Tan-Wall-Background_1800x1600_BLANK.jpg"); */
+        
+    }
+    .ftimer{
+        display: flex;
+        justify-content: center;
+        margin-top: 180px;
+    }
+    .tmingwrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* right: 80px; */
+    }
+    .tmercircle{
+        align-self: center;
+        /* justify-content: center; */
+    }
+    .text{
+        font-size: 11px;
+    }
+    .text2, .timer2{
+        font-size: 25px;
+    }
+    .value{
+        font-size: 20px;
+    }
+    .value2{
+        font-size: 34px;
+    }
+    .timertxt{
+        font-size: 14px;
+    }
+    #no{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    
+    #ptimer{
+        float: right;
+    }
+}

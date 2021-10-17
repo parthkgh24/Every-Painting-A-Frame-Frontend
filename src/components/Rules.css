@@ -1,0 +1,17 @@
+#div{
+    display: flex;
+    /* flex: inherit; */
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 500px;
+    align-content: center;
+    /* width: 550px; */
+}
+
+.p{
+    flex-shrink: 6;
+    /* flex-basis: 10px; */
+    width: 550px;
+}
+
+

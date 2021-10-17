@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Mukta:wght@200&display=swap');
+#h1,h2{
+    /* color: rgb(30, 42, 210); */
+    font-family: 'Mukta';
+    
+}
+#h1{
+    font-size: 44px;
+}
+#h2{
+    font-size: 36px;
+}
+/* .div{ */
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    /* border-width: 240px 490px; */
+    /* width: 400px;
+    float: center; */
+
+
+#homepgbtn{
+
+        border-radius: 26px;
+        font-family: Arial;
+        color: #ffff;
+        font-size: 20px;
+        background: #a113a1;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        width: 170px;
+      }
+body{
+    background-color: rgb(208, 189, 214);
+}
+
+      
