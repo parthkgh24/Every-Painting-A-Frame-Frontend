@@ -64,15 +64,14 @@ function PaintingInfo({pid}) {
         <div className="responsediv">
             
             <div class="image" >
-                
                 <img id ="img1" src ={link} alt = "starwarsbtch"></img>
                 <br />
                 {name}
-                <br /> 
+                <br />
             </div>
             
-            <div id="responses">
-                Responses:
+            <div class="responses">
+                <p class="respons">Responses:</p>
                 <div id="respinn">
                     {/* <button onClick = {dispResp} >Click</button> */}
                     

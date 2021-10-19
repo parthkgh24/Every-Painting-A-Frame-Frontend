@@ -18,6 +18,7 @@ function Painting() {
     const [fcount, setFcount] = useState(0)
     const [countdwnpl, setCountdwnpl] = useState(true)
     const [key, setKey] = useState(0)
+    // const [skipped, setSkipped] = useState([])
     useEffect(() => {
         axios.get('http://localhost:3001/painting')
             .then((res) => {
@@ -47,8 +48,7 @@ function Painting() {
 
                 // console.log(resp)
             })
-        // setTimer(!timing)
-        setInputValue(" ")
+        setInputValue("")
         setCount(count + 1)
         
         setKey(key+1)
@@ -61,6 +61,19 @@ function Painting() {
         }
 
 
+    }
+
+    const handleSkip = (event) =>{
+        setInputValue("")
+        setArr(arr.slice(0,-1))
+        console.log(arr)
+        setTemp(temp+1)
+        setKey(key+1)
+        
+        setCountdwnpl(true)
+        
+        event.preventDefault()
+        
     }
     // const looper = (event) =>{
     //         while(count<=10){
@@ -150,6 +163,7 @@ function Painting() {
                     <textarea rows="5" cols="52" onChange={handleChange} value ={inputValue} autoFocus></textarea>
                     <br />
                     <button id="ptbtn" type="submit" onClick={handleSubmit}>Submit</button>
+                    <button id="skpbtn" onClick={handleSkip}>Pass</button>
                 </form>
             </div>
         )

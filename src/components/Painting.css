@@ -10,7 +10,7 @@ img{
     /* padding-top: 50px; */
     border: 3px solid black;
 }
-#ptbtn{
+#ptbtn, #skpbtn{
     width: 270px;
     -webkit-border-radius: 31;
     -moz-border-radius: 31;
@@ -70,17 +70,17 @@ body{
 
 @media only screen and (max-width: 1063px){
     .image{
-        max-width: 580px;
-        max-height: 450px;
+        max-width: 300px;
+        max-height: 350px;
         /* width: 500px; */
         /* max-height: 400px; */
         /* object-fit: cover; */
         /* padding: 5px; */
-        
+        height: auto;
         /* padding-top: 50px; */
         border: 1px solid black;
     }
-    #ptbtn{
+    #ptbtn,#skpbtn{
         width: 270px;
         -webkit-border-radius: 31;
         -moz-border-radius: 31;
@@ -93,6 +93,7 @@ body{
         font-size: 20px;
         background: #9502a8;
         padding: 10px 20px 10px 20px;
+        margin-top: 6px;
         text-decoration: none;
     }
     form{
@@ -138,7 +139,9 @@ body{
         margin-top: 15px;
         font-size: 20px;
     }
-    
+    textarea{
+        rows: "20";
+    }
     #ptimer{
         float: right;
     }
