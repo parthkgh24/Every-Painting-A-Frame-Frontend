@@ -45,10 +45,6 @@
     #img1{
         /* width: 300px;
         height: 300px; */
-        /* flex-basis: 100px; */
-        /* float: left; */
-        /* margin-left: -40%; */
-        /* display: block; */
         /* padding: 20px; */
         align-self: center;
         width: 300px;
@@ -56,12 +52,6 @@
         /* padding: 50px; */
     }
     #respinn{
-        /* float: right; */
-        /* width: 60px;
-        height: 60px; */
-        /* float: right; */
-        /* float: left; */
-        /* margin-top: 20px; */
         margin-left: 5px;
         /* width: 100px; */
         /* height: 400px; */
