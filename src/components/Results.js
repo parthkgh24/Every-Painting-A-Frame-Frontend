@@ -1,6 +1,5 @@
 import React from 'react'
 import PaintingInfo from './PaintingInfo'
-// import Painting from './Painting'
 
 function Results(props) {
     // for(var i= 0; i<props.arr.length; i++){

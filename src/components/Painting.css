@@ -44,7 +44,7 @@ body{
     right: 80px;
 }
 .text{
-    font-size: 11px;
+    font-size: 14px;
 }
 .text2, .timer2{
     font-size: 25px;
@@ -73,8 +73,6 @@ body{
         max-width: 300px;
         max-height: 350px;
         /* width: 500px; */
-        /* max-height: 400px; */
-        /* object-fit: cover; */
         /* padding: 5px; */
         height: auto;
         /* padding-top: 50px; */

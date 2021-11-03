@@ -51,12 +51,6 @@ function PaintingInfo({pid}) {
         let keysSorted = Object.keys(obj).sort(function(a,b){return obj[a]-obj[b]})
         keysSorted.reverse()
         return [keysSorted, obj]
-        // console.log(keysSorted.reverse()); 
-        // for(let i=0; i<keysSorted.length; i++){
-        //     return(
-        //         {keysSorted[i]} {obj[keysSorted[i]]}
-        //         )
-        // }
     
     }
    

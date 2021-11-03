@@ -18,7 +18,6 @@ function Painting() {
     const [fcount, setFcount] = useState(0)
     const [countdwnpl, setCountdwnpl] = useState(true)
     const [key, setKey] = useState(0)
-    // const [skipped, setSkipped] = useState([])
     useEffect(() => {
         axios.get('http://localhost:3001/painting')
             .then((res) => {
@@ -143,7 +142,7 @@ function Painting() {
                             isPlaying={countdwnpl}
                             // timing={timing}
                             duration={20}
-                            size={108}
+                            size={130}
                             key={key}
                             colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
                         onComplete={() => {
