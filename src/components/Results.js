@@ -15,7 +15,6 @@ function Results(props) {
                 {/* <PaintingInfo pid = {props.arr[i]} /> */}
                 {props.location.state.arr.map(arr =>(<PaintingInfo pid={arr} />))}
                 {/* {array1.map(x => <h6><PaintingInfo pid = {x} /></h6>)} */}
-                {/* <PaintingInfo pid = {"6125073fb4dbcad2b24beb07"}/> */}
             </div>
         )
     }

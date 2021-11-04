@@ -1,8 +1,6 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
-
 import { Redirect } from 'react-router-dom'
-
 import './Painting.css'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
 
@@ -10,9 +8,10 @@ function Painting() {
     const [link, setLink] = useState("")
     const [id, setId] = useState("")
     const [resp, setResp] = useState("")
-    const [count, setCount] = useState(1)
     const [arr, setArr] = useState([])
-    // let rsp
+
+    const [count, setCount] = useState(1)
+    
     const [temp, setTemp] = useState(0)
     const [inputValue, setInputValue] = useState("")
     const [fcount, setFcount] = useState(0)
@@ -171,10 +170,6 @@ function Painting() {
         return (
             <Redirect to={{ pathname: "/Results", state: { arr: arr } }} />
             // <BrowserRouter>
-            //     <Route path = '/results' render = {() =>{
-
-            //     }} />
-            // </BrowserRouter>
         )
     }
 }
