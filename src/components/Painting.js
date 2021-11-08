@@ -12,8 +12,11 @@ function Painting() {
 
     const [count, setCount] = useState(1)
     
-    const [temp, setTemp] = useState(0)
-    const [inputValue, setInputValue] = useState("")
+    const [temp, setTemp] = useState(0) //temp to maintain that paintings don't gt repeated
+    const [inputValue, setInputValue] = useState("") //input for textarea
+
+    
+    //fcount for first timer before game starts, countdwnpl and key for the usual timer
     const [fcount, setFcount] = useState(0)
     const [countdwnpl, setCountdwnpl] = useState(true)
     const [key, setKey] = useState(0)
@@ -53,11 +56,9 @@ function Painting() {
         setCountdwnpl(true)
 
         if (count <= 6) {
-
             console.log(arr)
             event.preventDefault()
         }
-
 
     }
 

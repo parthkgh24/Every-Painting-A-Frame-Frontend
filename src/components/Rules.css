@@ -1,7 +1,6 @@
 #div{
     display: flex;
     align: center;
-    /* flex: inherit; */
     justify-content: center;
     flex-direction: column;
     margin-top: 80px;
