@@ -82,27 +82,5 @@ function PaintingInfo({pid}) {
         </div>
     )
 }
-// let arr=["a", "b", "c", "d", "e", "a", "b", "e", "s", "b", "d"]
-// let set = new Set(arr);
-// let count=0;
-// set = Array.from(set);
-// console.log(set)
-// let obj={}
-// for(let i=0; i<set.length; i++){
-//     for(let j=0; j<arr.length; j++){
-//         if(set[i]===arr[j]){
-//             count++;
-//         }
-//     }
-//     obj[set[i]]=count;
-//     console.log(set[i], count)
-//     count=0;
-// }
-// console.log(obj)
-// keysSorted = Object.keys(obj).sort(function(a,b){return obj[a]-obj[b]})
-// console.log(keysSorted.reverse()); 
-// for(let i=0; i<keysSorted.length; i++){
-//     console.log(keysSorted[i], obj[keysSorted[i]])
-// }
 
 export default PaintingInfo
